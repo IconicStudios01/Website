@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: rgb(18, 18, 18);
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.top-menu{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 8%;
+  border-bottom: solid 2px whitesmoke;
+}
+
+.top-menu a{
+  color: whitesmoke;
+  position: relative;
+  top: 10px;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.login-btn{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.login-btn a{
+  position: fixed;
+  top: 7.5px;
+  right: 10px;
+  font-size: 27px;
+  border:2px solid white;
+  border-radius: 4px;
+  color: whitesmoke;
+}
+
+
+.content-menu{
+  position: fixed;
+  height: 100%;
+  width: 13%;
+  font-size: 20px;
+  background-color: black;
+  color: whitesmoke;
+  top: 53px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.content-menu ul li a{
+  position: relative;
+  top: 100;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.content-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 87%;
+  height: 40px;
+  background-color: rgb(2, 2, 2);
+  color: white;
+}
+
+.footer a{
+  position: relative;
+  color: whitesmoke;
+  left: 27%;
+  top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-home{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(2, 2, 2);
+  color: white;
+}
+
+.footer-home a{
+  position: relative;
+  color: whitesmoke;
+  left: 33%;
+  top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.login-form{
+  position: fixed;
+  top: 50%;
+  right: 50%;
+}
+
+.login-form .login-head{
+  position: fixed;
+  background-color: rgb(37, 37, 37);
+  width: 50%;
+  height: 60px;
+  top: 15%;
+  right: 25%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 50px;
+}
+
+.login-form .login-head h2{
+  position: fixed;
+  top: 15%;
+  right: 46%;
+  font-size: 50px;
+}
+
+.login-area{
+  position: fixed;
+  width: 50%;
+  height: 400px;
+  top: 25%;
+  right: 25%;
+  background-color: rgb(61, 61, 61);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .input-area{
+  position: relative;
+  margin: 30px 0;
+}
+
+.input-area input{
+  width: 90%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+}
